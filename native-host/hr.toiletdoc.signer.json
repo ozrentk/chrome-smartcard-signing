@@ -1,0 +1,9 @@
+{
+  "name": "hr.toiletdoc.signer",
+  "description": "Smart Card ATR reader",
+  "path": "C:\\your\\path\\to\\native-host\\native-host\\card_host.cmd",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://qwertzuiopasdfghjklyxcvbnmqwertz/"
+  ]
+}

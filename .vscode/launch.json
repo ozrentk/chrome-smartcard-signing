@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Run signer.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/native-host/card.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}

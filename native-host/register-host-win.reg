@@ -1,0 +1,4 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Google\Chrome\NativeMessagingHosts\hr.toiletdoc.signer]
+@="C:\\your\\path\\to\\native-host\\hr.toiletdoc.signer.json"
