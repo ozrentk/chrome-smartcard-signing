@@ -1,6 +1,15 @@
 # Project: chrome-smartcard-signing
 POC for reading smarcard data via chrome extension
 
+# Diagram, idea, architecture, whatever
+
+ChatGPT helped me do this.  
+He's a great guy.  
+Maybe it's a she.  
+She's a great guy.  
+
+![Diagram](images/chrome-sc-poc-diagram.png)
+
 # Download SWIG for Windows
 
 Use: https://sourceforge.net/projects/swig/files/swigwin/swigwin-4.3.1/
