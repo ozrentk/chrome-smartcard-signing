@@ -1,5 +1,5 @@
 # Project: chrome-smartcard-signing
-POC for signing documents using certificate available on smarcard and chrome extension
+POC for reading smarcard data via chrome extension
 
 # Download SWIG for Windows
 
@@ -7,6 +7,14 @@ Use: https://sourceforge.net/projects/swig/files/swigwin/swigwin-4.3.1/
 Download locally and unpack it to e.g. C:\Tools\swigwin-4.3.1
 Add to PATH; like... `System > Environment Variables > User PATH`
 Restart VS Code (unfortunately the easiesat way, otherwise mess with persistent sessions).
+
+# Install Python stuff
+
+You need:
+- Python 3.11
+- Microsoft Python Debugger (debugpy)
+
+Install them.
 
 # Create virtual environment
 
@@ -29,9 +37,15 @@ As a simple test, you can run `card.py`.
 The real deal is `card_host.py`, which is unfortunately a script, so we need to embed it into an executable cmd, like `card_host.cmd`.
 The `card_host.py` is easily extendable, see `__main__`, ifelifelif...
 
-You can test the `card_host.py`, just `cd` to `native-host` and execute:
+You can test the `card_host.py`, just execute:
 
-    test_card_host.ps1
+```
+cd native-host
+.\test_card_host.ps1
+```
+
+You can also debug `card_host.py`.
+That's F5 for you in VS Code.
 
 # Register native host
 

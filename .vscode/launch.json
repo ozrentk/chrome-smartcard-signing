@@ -6,7 +6,8 @@
             "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}/native-host/card.py",
-            "console": "integratedTerminal"
+            "console": "integratedTerminal",
+            "python": "${workspaceFolder}/native-host/venv311/Scripts/python.exe"
         }
     ]
 }
